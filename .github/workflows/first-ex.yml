@@ -1,7 +1,7 @@
 name: Multiple tests
 on: push
 jobs: 
-  - name: Deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
